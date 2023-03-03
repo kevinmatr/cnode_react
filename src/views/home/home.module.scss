@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    padding: 10px;
+    font-size: 14px;
+    li{
+        padding: 2px 7px;
+        color: #80bd01;
+        cursor: pointer;
+        border-radius: 5px;
+        &.active{
+            background-color: #80bd01;
+            color: #fff;
+        }
+    }
+}
